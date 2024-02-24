@@ -40,21 +40,24 @@ html {
   border-radius: 0 0 1.5em 1.5em;
 }
 .card header h2 {
-  font-size: 3em;
-  line-height: 2;
-}
-.card footer p {
   font-size: 2em;
   line-height: 1;
 }
-.card article p {
+.card footer p {
+  font-size: 1em;
+  line-height: 2;
+}
+.card article  {
   height: 10em;
   background-color: cadetblue;
   border: 2em solid blueviolet;
-  padding: 3em;
-  color: black;
+
 }
 .card article img {
   max-height: 100%;
   float: right;
+}
+.card article p {
+  padding: 1em;
+  color: blac);
 }
